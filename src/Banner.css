@@ -1,7 +1,7 @@
 .Banner {
   display: flex;
   width: 70%;
-  margin: 0 auto 80px auto;
+  margin: 7px auto 80px auto;
 }
 
 .Banner h2 {
@@ -20,16 +20,33 @@
 }
 
 .banner-left {
+  margin: 0 20px 0 0;
   width: 50%;
 }
 
 .banner-right {
-  background-image: url(http://68.media.tumblr.com/bd9c40368eed9d1d994bfc716aafec48/tumblr_inline_ocdletfMwY1sse7kl_500.png);
+  background-image: url(../public/tinyeggs.png);
   background-size: cover;
+  background-position: 10% 60%;
   width: 50%;
 }
 
 .button-holder {
   display: flex;
   justify-content: flex-start;
+}
+
+@media screen and (max-width: 1250px) {
+  .Banner {
+    flex-direction: column-reverse;
+  }
+
+  .banner-right {
+    height: 300px;
+    width: 100%;
+  }
+
+  .banner-left {
+    width: 100%;
+  }
 }

@@ -2,7 +2,11 @@ import React from 'react';
 import './Footer.css';
 
 const Footer = () => {
-  // WHAT GOES HERE?
+  return (
+    <div className='Footer'>
+      <a>&#169; 2017</a>
+    </div>
+    )
 }
 
 export default Footer;
