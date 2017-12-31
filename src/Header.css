@@ -10,12 +10,12 @@
 a {
   text-align: center;
   text-decoration: none;
-  color: lightseagreen;
+  color: #97a1bb;
   width: 20%;
 }
 
 a:hover {
-  color: turquoise;
+  color: #7d84a2;
 }
 
 h1 {
@@ -23,4 +23,5 @@ h1 {
   font-size: 40px;
   font-weight: bolder;
   margin: 0;
+  color: #101926;
 }
